@@ -1,0 +1,41 @@
+package com.meow.hungergames.utilities;
+
+public class Constants {
+    public static final String RECIPE_MODEL_KEY = "recipe";
+    public static final int RECIPE_ITEM_CLICKED = 0;
+    public static final int NEW_POST_CLICKED = 1;
+    public static final int LOGOUT_CLICKED = 2;
+    public static final int EDIT_PROFILE_CLICKED = 3;
+    public static final int METHOD_GET = 4;
+    public static final int METHOD_POST = 5;
+    public static final int GET_USER_POST = 6;
+    public static final int METHOD_DELETE = 7;
+    public static final int USER_RECIPE_LONG_CLICK = 8;
+    public static final int GET_USER = 9;
+    public static final int GET_ALL_USERS = 10;
+    public static final int GET_ALL_POSTS = 11;
+    public static final int GET_HOTTEST_POSTS = 12;
+    public static final int GET_LATEST_POSTS = 13;
+    public static final int GET_VEG_POSTS = 14;
+    public static final int GET_NON_VEG_POSTS = 15;
+    public static final int GET_QUERY_POST = 16;
+    public static final int SHOW_RECYCLER_VIEW = 17;
+    public static final int SHOW_PROGRESS_BAR = 18;
+    public static final int SHOW_NO_HISTORY = 19;
+    public static final int SHOW_NO_SEARCH_RESULT = 20;
+    public static final int SHOW_NO_INTERNET_CONNECTION = 21;
+    public static final int HISTORY_CROSS_CLICKED = 22;
+    public static final int SEARCHED_ITEM_CLICKED = 23;
+    public static final int COMMENT_CLICKED = 24;
+    public static final int VIEW_COMMENTS_CLICKED = 25;
+    public static final int GET_COMMENTS_OF_POST = 26;
+    public static final int LIKE_CLICKED = 27;
+    public static final int CHECK_LIKED = 28;
+    public static final int VIEW_LIKES_CLICKED = 29;
+    public static final int GET_LIKES_OF_POST = 30;
+    public static final int SAVE_CLICKED = 31;
+    public static final int GET_SAVED = 32;
+    public static final int CHECK_SAVED = 33;
+    public static final int METHOD_PUT = 34;
+    public static final int GET_SINGLE_POST = 35;
+}

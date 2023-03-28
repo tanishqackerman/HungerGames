@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65290762494",
+    "project_id": "hunger-games-hehe",
+    "storage_bucket": "hunger-games-hehe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65290762494:android:4c122922eb8f9f18ee4daf",
+        "android_client_info": {
+          "package_name": "com.meow.hungergames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65290762494-c4o20dpm52oreknqqeko4vvfglsuaa8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtUCUTvHDzutCoF-Zr5rdlSviCKPLlX8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65290762494-c4o20dpm52oreknqqeko4vvfglsuaa8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

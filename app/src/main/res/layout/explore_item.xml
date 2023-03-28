@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="120dp"
+    android:layout_height="160dp"
+    android:layout_marginEnd="20dp"
+    android:backgroundTint="#FFF0F6"
+    app:cardCornerRadius="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/recipe_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textAlignment="center"
+            android:background="#99F8C8DC"
+            android:textColor="@color/white"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:text="Donut"/>
+
+
+</androidx.cardview.widget.CardView>

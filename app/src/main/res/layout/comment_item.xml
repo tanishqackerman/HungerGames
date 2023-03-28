@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/pfp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/roundimg"
+            android:src="@drawable/rep"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="Taylor Swift"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            app:shapeAppearanceOverlay="@style/roundimg"
+            android:layout_gravity="center"
+            android:background="#5C5C5C"
+            android:layout_width="4dp"
+            android:layout_height="4dp"/>
+
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/mod"
+            android:layout_marginStart="10dp"
+            android:text="25-03-2023 8:25"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/mod"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="10dp"
+        android:text="Taylor Swift"/>
+
+</LinearLayout>

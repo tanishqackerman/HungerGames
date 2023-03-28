@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.NewPostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="ENTER DETAILS OF YOUR RECIPE"
+            android:textSize="22sp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Picture of your Recipe"
+            android:textSize="22sp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:visibility="gone"
+            android:id="@+id/recipe_img"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/profile_bg"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/recipe_img_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/mod"
+            android:text="UPLOAD IMAGE"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            app:icon="@drawable/ic_baseline_arrow_forward_24"
+            app:iconTint="@color/white" />
+
+        <EditText
+            android:id="@+id/recipe_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ingredient_bg"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Recipe Name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="22sp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/ingredient_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ingredient_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ingredient_bg"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Ingredient"/>
+
+            <Button
+                android:id="@+id/add_ingredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextbg"
+                android:fontFamily="@font/mod"
+                android:text="ADD INGREDIENT"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:icon="@drawable/ic_baseline_arrow_forward_24"
+                app:iconTint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps"
+            android:textSize="22sp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/step_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/step_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ingredient_bg"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Step"/>
+
+            <Button
+                android:id="@+id/add_step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextbg"
+                android:fontFamily="@font/mod"
+                android:text="ADD STEP"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                app:icon="@drawable/ic_baseline_arrow_forward_24"
+                app:iconTint="@color/white" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/is_veg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEG"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mod"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/upload_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/mod"
+            android:text="UPLOAD RECIPE "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            app:icon="@drawable/ic_baseline_arrow_forward_24"
+            app:iconTint="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
